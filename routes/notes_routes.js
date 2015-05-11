@@ -51,7 +51,7 @@ module.exports = function(router) {
 			}
 
 			res.json({msg: 'success'});
-		})
-	})
+		});
+	});
 };
 
